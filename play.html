@@ -2,21 +2,23 @@
 
 <head>
     <title>4 in a Row!</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body id="body" onload="drawGrid();">
     <h1>Play!</h1>
     <div id="main">
         <div>
-            <button type="button" class="input">
-            <button type="button" class="input">
-            <button type="button" class="input">
-            <button type="button" class="input">
-            <button type="button" class="input">
-            <button type="button" class="input">
-            <button type="button" class="input">
+            <button onclick="clicked(0);" type="button" class="input" onmoseover="glow(this);" onmouseout="revGlow(this);">
+            <button onclick="clicked(1);" type="button" class="input" onmoseover="glow(this);" onmouseout="revGlow(this);">
+            <button onclick="clicked(2);" type="button" class="input" onmoseover="glow(this);" onmouseout="revGlow(this);">
+            <button onclick="clicked(3);" type="button" class="input" onmoseover="glow(this);" onmouseout="revGlow(this);">
+            <button onclick="clicked(4);" type="button" class="input" onmoseover="glow(this);" onmouseout="revGlow(this);">
+            <button onclick="clicked(5);" type="button" class="input" onmoseover="glow(this);" onmouseout="revGlow(this);">
+            <button onclick="clicked(6);" type="button" class="input" onmoseover="glow(this);" onmouseout="revGlow(this);">
         </div>
-    </div>
+    </div>  
+    <script src="logic.js"></script>
 </body>
 
 </html>
